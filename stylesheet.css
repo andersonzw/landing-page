@@ -85,7 +85,6 @@ align-items: center;
 }
 .card-container {
     display: flex;
-    flex-wrap: wrap;
     text-align: center;
 }
 .card {
@@ -106,7 +105,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 70px 200px;
+    padding: 70px 20%;
     font-size: 32px;
     font-style: italic;
     color: #1f2937;
@@ -126,7 +125,7 @@ align-items: center;
     align-items: center;
     background-color: #3882f6;
     margin: 100px 150px;
-    padding: 20px 60px;
+    padding: 20px 20%;;
     color: #F9FAF8;
 }
 
