@@ -1,0 +1,153 @@
+*{box-sizing: border-box;}
+body,.middle  {
+    display:flex;
+    flex-direction: column;
+}
+
+
+body {
+margin: 0
+}
+
+.header {
+display:flex;
+align-items: center;
+}
+
+.header > h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right:auto;
+}
+
+.header > p {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0 12px;
+    
+}
+.header,.banner{
+    background-color: #1f2937;
+    padding: 12px 200px;
+}
+
+
+.banner {
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+    color: #E5E7EB;
+    padding-bottom: 50px;
+}
+
+#banner-image {
+    max-width: 500px;
+    height:auto;
+    min-width:0;
+    min-height: auto;
+    flex:1;
+    padding-left:16px;
+}
+
+.banner-left {
+    display:flex;
+    flex-direction: column;
+    max-width: 500px;
+    min-width:0;
+    flex:1;
+}
+.button {
+    width: 100px;
+}
+.banner .banner-left button {
+    display: inline-block;
+    background-color: #3882F6;
+    height: 35px;
+    width: 120px;
+    padding: 0;
+    text-align: center;
+
+}
+
+
+/* Middle  */
+
+.middle {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle > h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.card {
+    text-align: center;
+}
+.card > img {
+    height:200px;
+    width:200px;
+    object-fit: cover;
+}
+.card > p {
+    padding: 10px;
+}
+
+/*quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 70px 200px;
+    font-size: 32px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+.quote > p {
+    margin: 0 auto;
+}.quote-name{
+    text-align: right;
+}
+
+
+.ad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 100px 150px;
+    padding: 20px 60px;
+    color: #F9FAF8;
+}
+
+.sign-up {
+    padding:10px 30px;
+    margin:0;
+
+}
+
+.ad-text > p {
+    font-size: 12px;
+}
+
+.ad-text > h1 {
+    font-size: 20px;
+}
+
+/* footer*/
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 20px 0;
+}
